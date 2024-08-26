@@ -4,6 +4,7 @@ public class eje3 {
     // Pedir por pantalla el nombre y apellido de una persona. Mostrar por pantalla como
     // serían sus iniciales. Asuma que la persona sólo tiene un nombre y un apellido.
     // Ej.: Alfonzo Zarate → AZ  0 al 6
+    
     public static void main(String[] args) {
         System.out.println("Ingrese su nombre completo");
         Scanner lector = new Scanner(System.in);
