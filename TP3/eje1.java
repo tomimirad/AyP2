@@ -5,8 +5,5 @@ public class eje1 {
         String nombre = "tomas miranda";
         System.out.println(nombre.toUpperCase());
     }
-
-
- 
 }
 
