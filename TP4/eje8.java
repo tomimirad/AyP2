@@ -7,11 +7,9 @@ public class eje8 {
     Scanner lector = new Scanner(System.in);
     System.out.println("ingrese un numero para sacar su factorial");
     int factor = lector.nextInt();
-    int acum = 0;
-      for (int i = 1; i < factor; i--) {        
-        int numero = factor-1;
-        int factorial = factor*numero;
-        acum += factorial;
+    int acum = 1;
+      for (int i = 1; i <= factor; i++) {        
+        acum *=i;
       }
       System.out.println("factorial de "+factor+"="+acum);
   }
