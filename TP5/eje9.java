@@ -1,18 +1,23 @@
 package TP5;
+import java.util.Arrays;
 // Dado un vector de N componentes enteros, escriba un programa que visualice: La 
 // componente máxima y la posición de la misma. En caso de haber varios máximos 
 // mostrar la posición de cada uno de ellos. 
 
 public class eje9 {
     public static void main(String[] args) {
-        int[] maximo = {10,4,5,2,30};
+        final int n = 10;
+        int[] maximo = new int[n];
         int max = maximo[0];
-        for (int i = 1; i < maximo.length; i++) {
-            if (maximo[i] > max) {
+        for (int i = 0; i < n; i++) {
+            maximo[i] = (int) (30*Math.random());
+        }
+
+        
+        for (int i = 0; i < maximo.length; i++) {
+            if (maximo[i] >= max) {
                 max = maximo[i];
                 System.out.println("componente maxima: "+max+ " en la posicion "+i);
-            } else if(maximo[i] < max) {
-                System.out.println("componente maxima: "+max+" en la posicion " + i);
             }
         }
     }
