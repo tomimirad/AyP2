@@ -6,12 +6,13 @@ import java.util.Arrays;
 
 public class eje9 {
     public static void main(String[] args) {
-        final int n = 10;
-        int[] maximo = new int[n];
+        // final int n = 10;
+        // int[] maximo = new int[n];
+        int[] maximo = {30,10,23,30,10,9};
         int max = maximo[0];
-        for (int i = 0; i < n; i++) {
-            maximo[i] = (int) (30*Math.random());
-        }
+        // for (int i = 0; i < maximo.length; i++) {
+        //     // maximo[i] = (int) (30*Math.random());
+        // }
 
         
         for (int i = 0; i < maximo.length; i++) {
