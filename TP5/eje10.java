@@ -16,8 +16,8 @@ public class eje10 {
         Set<Integer> conjunto1 = new HashSet<>();
         Set<Integer> conjunto2 = new HashSet<>();
         for (Integer i : A) {
-           union.add(i);
-           conjunto1.add(i); 
+            union.add(i);
+            conjunto1.add(i); 
         }
         for (Integer i : B) {
             union.add(i);
